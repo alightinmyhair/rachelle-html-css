@@ -28,7 +28,7 @@ html{
     margin: 10px;
     padding: 100px;
     background-image: url("./images/marigold.jpg");
-    background-position: 30% 30%;
+    background-position: 48% 48%;
     background-repeat: repeat;
 }
 .center{
@@ -39,7 +39,7 @@ html{
     padding: 20px;
     float: center;
     height:30%;
-    width: 27%;
+    width: 25%;
 }
 
 #onepic{
@@ -120,12 +120,23 @@ ul,ol{
 .teeny{
     margin: 3px;
     padding: 4px;
+    height: 35px;
+    width: 35px;
     /* float: center; */
     /* background-position: 60%; */
 
 }
 
 
-li{
-    /* list-style: circle; */
+article{
+    display: block;
+}
+
+#hello{
+    font-display: "Inconsolata", monospace;
+    text-align: center;
+}
+
+.boxy{
+    border: 5px;
 }
