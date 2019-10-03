@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Muli|Open+Sans+Condensed:300&display=swap');
+
+/* Selects the root element of the document:
+   <html> in the case of HTML */
+
+:root{
+    --accent:#AFAAAA;
+    --light: #E19B1E;
+    /* --lightText: #00806A; */
+    --dark: #008080;
+    --lightText: #78F9F9;
+    --link: #FE763B;
+}
+
+*{
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px; */
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-size: 23px;
+}
+
+html{
+    background-color: #AFAAAA;
+    margin: 10px;
+    padding: 100px;
+    background-image: url("./images/marigold.jpg");
+    background-position: 30% 30%;
+    background-repeat: repeat;
+}
+.center{
+    border-radius: 80px;
+    border: 5px solid #AFAAAA;
+    background-color:#E19B1E;
+    margin: 50px;
+    padding: 20px;
+    float: center;
+    height:30%;
+    width: 27%;
+}
+
+#onepic{
+    border-radius: 80px;
+    border: 5px solid #AFAAAA;
+    background-color:#E19B1E;
+    margin: 50px;
+    padding: 20px;
+    float: right;
+    height:20%;
+    width: 17%;
+}
+
+
+#sub{
+    color: var(--light);
+    font-family: "Muli", sans-serif;
+    text-align: right;
+    font-size:20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--link);
+}
+
+
+p{
+    color: var(--lightText);
+    text-decoration: none;
+    font-family: "Muli", sans-serif;
+    padding: 2px;
+    margin: 25px;
+    text-align: left;
+}
+
+h1{
+    color: var(--light);
+    font-family: "Inconsolata", monospace;
+    font-size:65px;
+    margin:10px;
+    padding: 1px;
+    text-align: right;
+}
+h3{
+    color: var(--light);
+    font-family: "Inconsolata", monospace;
+    font-size: 45px;
+    text-align: center;
+}
+
+body {
+    background-color: var(--dark);
+    /* background-image: url("./images/marigold.jpg");
+    height:10%;
+    width: 17%;
+    background-repeat: none; */
+    opacity: 0.9;
+}
+
+
+ul,ol{
+    color: var(--accent);
+    font-family: "Muli", sans-serif;
+    font-size: 22px;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+    /* align-items: right; */
+    /* display: table; */
+    list-style: square inside;
+
+}
+
+.teeny{
+    margin: 3px;
+    padding: 4px;
+    /* float: center; */
+    /* background-position: 60%; */
+
+}
+
+
+li{
+    /* list-style: circle; */
+}
